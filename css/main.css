@@ -2,11 +2,14 @@ body {
   background: #008080; }
 
 h1 {
-  background: blue; }
+  background: #ccc; }
 
 div h1 a {
-  color: #8B0000;
-  text-decoration: none; }
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 300; }
 div p {
   background: #FFE4C4;
   color: #008B8B; }
@@ -16,6 +19,9 @@ div button {
   margin: 10px 0;
   transition: 0.3s; }
   div button:hover {
-    transform: scale(1.2); }
+    transform: scale(1.2);
+    letter-spacing: 3px;
+    color: white;
+    background: black; }
 
 /*# sourceMappingURL=main.css.map */

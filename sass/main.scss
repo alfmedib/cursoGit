@@ -3,14 +3,17 @@ body{
 }
 
 h1{
-	background: blue;
+	background: #ccc;
 }
 
 div{
 	h1{
 		a{
-			color: #8B0000;
+			color: #fff;
 			text-decoration: none;
+			text-transform: uppercase;
+			letter-spacing: 5px;
+			font-size: 300;
 		}
 	}
 	p{
@@ -25,6 +28,9 @@ div{
 		transition: 0.3s;
 		&:hover{
 			transform: scale(1.2);
+			letter-spacing: 3px;
+			color: white;
+			background: black;
 		}
 	}
 }
