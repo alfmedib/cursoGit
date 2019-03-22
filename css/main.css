@@ -4,4 +4,11 @@ body {
 h1 {
   background: blue; }
 
+div h1 a {
+  color: #8B0000;
+  text-decoration: none; }
+div p {
+  background: #FFE4C4;
+  color: #008B8B; }
+
 /*# sourceMappingURL=main.css.map */
