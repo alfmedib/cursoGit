@@ -12,9 +12,9 @@ div h1 a {
   font-size: 300; }
 div p {
   background: #FFE4C4;
-  color: #008B8B; }
+  color: yellow; }
 div button {
-  background: red;
+  background: #ccc;
   padding: 10px 20px;
   margin: 10px 0;
   transition: 0.3s; }
